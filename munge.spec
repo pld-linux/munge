@@ -1,5 +1,5 @@
 Summary:	MUNGE Uid 'N' Gid Emporium - authentication service
-Summary(pl):	MUNGE Uid 'N' Gid Emporium - us³uga uwierzytelniaj±ca
+Summary(pl.UTF-8):   MUNGE Uid 'N' Gid Emporium - usÅ‚uga uwierzytelniajÄ…ca
 Name:		munge
 Version:	0.5.7
 Release:	1
@@ -24,51 +24,51 @@ within this security realm can create and validate credentials without
 the use of root privileges, reserved ports, or platform-specific
 methods.
 
-%description -l pl
-MUNGE (MUNGE Uid 'N' Gid Emporium) to us³uga uwierzytelniaj±ca do
-tworzenia i sprawdzania poprawno¶ci danych uwierzytelniaj±cych. Jest
-zaprojektowana jako wysoko skalowalna, przeznaczona do u¿ycia w
-¶rodowisku klastrowym HPC. Pozwala procesowi na uwierzytelnienie UID-u
-lub GID-u innego lokalnego lub zdalnego procesu w grupie hostów
-maj±cych wspólnych u¿ytkowników i grupy. Hosty te tworz± dziedzinê
-bezpieczeñstwa okre¶lon± poprzez wspó³dzielony klucz kryptograficzny.
-Klienci wewn±trz tej dziedziny bezpieczeñstwa mog± tworzyæ i sprawdzaæ
-poprawno¶æ danych uwierzytelniaj±cych bez wykorzystywania uprawnieñ
-roota, zarezerwowanych portów czy metod zale¿nych od platformy.
+%description -l pl.UTF-8
+MUNGE (MUNGE Uid 'N' Gid Emporium) to usÅ‚uga uwierzytelniajÄ…ca do
+tworzenia i sprawdzania poprawnoÅ›ci danych uwierzytelniajÄ…cych. Jest
+zaprojektowana jako wysoko skalowalna, przeznaczona do uÅ¼ycia w
+Å›rodowisku klastrowym HPC. Pozwala procesowi na uwierzytelnienie UID-u
+lub GID-u innego lokalnego lub zdalnego procesu w grupie hostÃ³w
+majÄ…cych wspÃ³lnych uÅ¼ytkownikÃ³w i grupy. Hosty te tworzÄ… dziedzinÄ™
+bezpieczeÅ„stwa okreÅ›lonÄ… poprzez wspÃ³Å‚dzielony klucz kryptograficzny.
+Klienci wewnÄ…trz tej dziedziny bezpieczeÅ„stwa mogÄ… tworzyÄ‡ i sprawdzaÄ‡
+poprawnoÅ›Ä‡ danych uwierzytelniajÄ…cych bez wykorzystywania uprawnieÅ„
+roota, zarezerwowanych portÃ³w czy metod zaleÅ¼nych od platformy.
 
 %package libs
 Summary:	MUNGE library
-Summary(pl):	Biblioteka MUNGE
+Summary(pl.UTF-8):   Biblioteka MUNGE
 Group:		Libraries
 
 %description libs
 MUNGE library.
 
-%description libs -l pl
+%description libs -l pl.UTF-8
 Biblioteka MUNGE.
 
 %package devel
 Summary:	Header file for MUNGE library
-Summary(pl):	Plik nag³ówkowy biblioteki MUNGE
+Summary(pl.UTF-8):   Plik nagÅ‚Ã³wkowy biblioteki MUNGE
 Group:		Development/Libraries
 Requires:	%{name}-libs = %{version}-%{release}
 
 %description devel
 Header file for MUNGE library.
 
-%description devel -l pl
-Plik nag³ówkowy biblioteki MUNGE.
+%description devel -l pl.UTF-8
+Plik nagÅ‚Ã³wkowy biblioteki MUNGE.
 
 %package static
 Summary:	Static MUNGE library
-Summary(pl):	Statyczna biblioteka MUNGE
+Summary(pl.UTF-8):   Statyczna biblioteka MUNGE
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static MUNGE library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka MUNGE.
 
 %prep
