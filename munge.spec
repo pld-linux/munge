@@ -1,5 +1,5 @@
 Summary:	MUNGE Uid 'N' Gid Emporium - authentication service
-Summary(pl.UTF-8):   MUNGE Uid 'N' Gid Emporium - usługa uwierzytelniająca
+Summary(pl.UTF-8):	MUNGE Uid 'N' Gid Emporium - usługa uwierzytelniająca
 Name:		munge
 Version:	0.5.7
 Release:	1
@@ -38,7 +38,7 @@ roota, zarezerwowanych portów czy metod zależnych od platformy.
 
 %package libs
 Summary:	MUNGE library
-Summary(pl.UTF-8):   Biblioteka MUNGE
+Summary(pl.UTF-8):	Biblioteka MUNGE
 Group:		Libraries
 
 %description libs
@@ -49,7 +49,7 @@ Biblioteka MUNGE.
 
 %package devel
 Summary:	Header file for MUNGE library
-Summary(pl.UTF-8):   Plik nagłówkowy biblioteki MUNGE
+Summary(pl.UTF-8):	Plik nagłówkowy biblioteki MUNGE
 Group:		Development/Libraries
 Requires:	%{name}-libs = %{version}-%{release}
 
@@ -61,7 +61,7 @@ Plik nagłówkowy biblioteki MUNGE.
 
 %package static
 Summary:	Static MUNGE library
-Summary(pl.UTF-8):   Statyczna biblioteka MUNGE
+Summary(pl.UTF-8):	Statyczna biblioteka MUNGE
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
